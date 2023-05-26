@@ -166,13 +166,13 @@ const LandingPage = () => {
 
   <div className="w-full md:w-1/2 pl-20 relative image-container3">
     <div className="">
-      <div className="" />
+      <div className="Frame w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
       <img src={main1} alt="main1" className="main1" />
     </div>
   </div>
 </div>
 
-      <div className='flex mx-auto items-center justify-between container7  flex-col lg:flex-row'>
+      <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className='w-full pr-9'>
       <div className='flex mx-auto items-center justify-between container6 hello'>
         <div className="flex textt-container2 "><p className=''>
@@ -180,7 +180,7 @@ const LandingPage = () => {
         </div>
         
       </div>
-          <div>
+      <div className="w-full md:w-1/2 pr-9">
           <div className='box'>
             <p className='box1'>Click on the register button</p>
             <p className='box2'>Sign up with your E-mail address</p>
@@ -197,26 +197,31 @@ const LandingPage = () => {
           </div>
           </div>
         </div>
-        <div className='w-full pl-10 flex items-center justify-flex-end flex-col'>
-        <button onClick={handleRegisterClick} className="flex flex-row  button1">
+        <div className='w-full md:w-1/2 pl-20 relativeflex items-center justify-flex-end flex-col'>
+        <button onClick={handleRegisterClick} className="flex flex-row  button7">
             Register Now<FaArrowRight className="ml-2 icon1" />
          </button>
-            <img src={hand} alt='hand' className='hand  lg:w-auto h-auto lg:h-full mx-2 my-2' />
+    <div className="">
+      <div className="" />
+            <img src={hand} alt='hand' className='main1' />
+    </div>
+  </div>
+
         </div>
         </div>
         </div>
-      </div>
+
     </section>
     <section className='container section3'>
     <div className='flex container6 relative justify-center'>
         <p className="flex items-center button3">Our Services 😍</p>
         <p className="send1">We build <span className='smart'>usable, simple</span> and <span className='smart'>functional</span> product.</p>
       </div>
-      <div className='flex justify-center image-container4'>
-        <img src={Frame4} alt="Frame4" className="Frame4" />
-        <img src={Frame5} alt="Frame5" className="Frame4" />
-        <img src={Frame6} alt="Frame6" className="Frame4" />
-        <img src={Frame7} alt="Frame7" className="Frame4" />
+      <div className="image-column flex flex-wrap justify-center">
+        <img src={Frame4} alt="Frame4" className="Frame4 w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
+        <img src={Frame5} alt="Frame5" className="Frame4 w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
+        <img src={Frame6} alt="Frame6" className="Frame4 w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
+        <img src={Frame7} alt="Frame7" className="Frame4 w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
       </div>
       <div className='flex justify-center'>
         
@@ -226,13 +231,13 @@ const LandingPage = () => {
       </div>
     </section>
     <section className='container section4'>
-    <div className="flex text-container7"><p>
+    <div className="flex text-container2 mb-6 md:mb-0"><p>
       Building our<span className='smart'> expertise, for you</span></p>
       </div>
-      <div className='flex justify-center image-container5'>
-      <img src={rectangle1} alt="rectangle1" className="rectangle1" />
-      <img src={rectangle2} alt="rectangle2" className="rectangle1" />
-      <img src={rectangle3} alt="rectangle3" className="rectangle1" />
+      <div className='image-column flex flex-wrap justify-center'>
+      <img src={rectangle1} alt="rectangle1" className="Frame w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
+      <img src={rectangle2} alt="rectangle2" className="Frame w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
+      <img src={rectangle3} alt="rectangle3" className="Frame w-full lg:w-auto h-auto lg:h-full mx-2 my-2" />
       </div>
     </section>
     <footer className='container section5'>
