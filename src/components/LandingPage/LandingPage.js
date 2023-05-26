@@ -198,7 +198,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className='w-full md:w-1/2 pl-20 relativeflex items-center justify-flex-end flex-col'>
-        <button onClick={handleRegisterClick} className="flex flex-row  button7">
+        <button onClick={handleRegisterClick} className="flex flex-row  button1 pineapple">
             Register Now<FaArrowRight className="ml-2 icon1" />
          </button>
     <div className="">

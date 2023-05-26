@@ -688,14 +688,14 @@ line-height: 38px;
 text-align: center;
       }
      .goat {
-        font-weight: 600;
-font-size: 20px;
+        font-weight: 400;
+font-size: 15px;
 line-height: 25px;
 margin-top: 10px;
      }
      .goat1 {
-        font-weight: 600;
-font-size: 20px;
+        font-weight: 400;
+font-size: 15px;
 line-height: 25px;
 width: 70vw;
      }
@@ -715,6 +715,84 @@ width: 70vw;
     width: 100%;
     margin-top: 100px;
     overflow-x: hidden;
+    }
+    .box {
+        width: 350px;
+    height: 125px;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    border: 3px solid #F1F1FE;
+    border-radius: 24px;
+    padding: 24px;
+    }
+    
+    .box1{
+        font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #464398;
+    padding: 12px 32px;
+    gap: 10px;
+    width: 307px;
+    height: 45px;
+    align-self: center;
+    background: #F1F1FE;
+    border-radius: 12px;
+    }
+    
+    .box2 {
+        font-weight: 300;
+    font-size: 18px;
+    line-height: 141.2%;
+    width: 320px;
+    height: 25px;
+    line-height: 141.2%;
+    color: #6562BC;
+    padding: 18px;
+    }
+    
+    .box5 {
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 141.2%;
+        width: 320px;
+        height: 25px;
+        line-height: 141.2%;
+        color: #6562BC;
+        padding: 8px;
+    }
+    
+    .box3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #464398;
+        padding: 12px 32px;
+        gap: 10px;
+        width: 307px;
+        height: 45px;
+        align-self: center;
+        background: #F1F1FE;
+        border-radius: 12px;
+    }
+    
+    .box4 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        color: #464398;
+        padding: 12px 32px;
+        gap: 10px;
+        width: 228px;
+        height: 45px;
+        align-self: center;
+        background: #F1F1FE;
+        border-radius: 12px;
+        margin-left: 35px;
     }
     }
 
