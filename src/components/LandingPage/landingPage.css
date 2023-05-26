@@ -586,11 +586,11 @@ line-height: 30px;
       }
       .textt-container2{
         margin-top: -50px;
-        font-size: 30px;
+        font-size: 25px;
         width: 320px;
         height: 76px;
         line-height: 38px;
-        font-weight: 600;
+        font-weight: 550;
         margin-bottom: 50px;
         margin-left: -30px;
       }
@@ -730,7 +730,7 @@ width: 70vw;
     border: 3px solid #F1F1FE;
     border-radius: 24px;
     padding: 24px;
-    margin-left: -30px;
+    margin-left: -20px;
     }
     .arrow15 {
         margin-left: 120px;
