@@ -173,9 +173,9 @@ const LandingPage = () => {
 </div>
 
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
-        <div className='w-full pr-9'>
+        <div className='w-full pr-9 container19'>
       <div className='flex mx-auto items-center justify-between container6 hello'>
-        <div className="flex textt-container2 "><p className=''>
+        <div className="textt-container2 mb-6 md:mb-0"><p className=''>
         3 Easy Steps to <span className='smart'>Open Our Free Foreign</span> Bank Account</p>
         </div>
         
@@ -198,7 +198,7 @@ const LandingPage = () => {
           </div>
         </div>
         <div className='w-full md:w-1/2 pl-20 relativeflex items-center justify-flex-end flex-col'>
-        <button onClick={handleRegisterClick} className="flex flex-row  button1 pineapple">
+        <button onClick={handleRegisterClick} className="flex flex-row  button7 pineapple">
             Register Now<FaArrowRight className="ml-2 icon1" />
          </button>
     <div className="">
