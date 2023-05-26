@@ -553,7 +553,6 @@ color: #fff;
     .lander {
         padding-left: 20px;
         padding-right: 20px;
-        overflow-x: hidden;
     }
     .section1 {
         padding: 20px;
@@ -654,18 +653,31 @@ line-height: 30px;
         width: 100%;
         text-align: center;
         background: transparent;
-        background-color: #fff;
         backdrop-filter: blur(10px);         padding: 10px 0;
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
         z-index: 999;
         width: 100vw;
+        text-align: left;
+
 
       }
       
       #menu li {
         display: block;
-        margin-bottom: 10px;
+        /* margin-bottom: 10px; */
 align-items: center;
+padding: 10px 2px;
+color: #132144;
+backdrop-filter: blur(10px);         padding: 10px 0;
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); */
+        z-index: 999;
+font-weight: 400;
+cursor: pointer;
+      }
+      .aboutU {
+        margin-left: 18px;
+        padding-left: 10px;
+        width: 80vw
       }
       .container3 {
         margin-top: 50px;

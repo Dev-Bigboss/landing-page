@@ -60,17 +60,18 @@ const LandingPage = () => {
         <div className="flex items-center">
           <img className="h-8 logo" src={Logo} alt="Payceler" />
         </div>
-        <div id="menuToggle" className="hidden md:block " onClick={handleMenuToggle}>
+        <div id="menuToggle" className="hidden sm:ml-6 sm:block" onClick={handleMenuToggle}>
           <input type="checkbox" className="hidden" checked={menuVisible} readOnly />
           <span></span>
           <span></span>
           <span></span>
-          <ul id="menu" className={`hidden md:flex items-center space-x-6 ${menuVisible ? 'block' : 'hidden'}`}>
-            <li><a href="/aboutUs" className="banks">About us</a></li>
-            <li><a href="/pricing" className="banks">Pricing</a></li>
-            <li><a href="/contactUs" className="banks">Contact us</a></li>
-            <li><a href="/helpCenter" className="banks">Help center</a></li>
-          </ul>
+          <ul id="menu" className={`hidden md:flex space-x-4 ${menuVisible ? 'block' : 'hidden'}`} style={{ margin: 0, padding: 0 }}>
+  <li><a href="/aboutUs" className="rounded-md px-3 py-2 text-sm font-medium' aboutU  hover:bg-gray-700 hover:text-white">About us</a></li>
+  <li><a href="/pricing" className="rounded-md px-3 py-2 text-sm font-medium' hover:bg-gray-700 hover:text-white">Pricing</a></li>
+  <li><a href="/contactUs" className="rounded-md px-3 py-2 text-sm font-medium'  hover:bg-gray-700 hover:text-white">Contact us</a></li>
+  <li><a href="/helpCenter" className=" hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium'">Help center</a></li>
+</ul>
+
         </div>
         <button onClick={handleSignInClick} className="signin rounded-lg px-4 py-2">Sign In</button>
       </nav>
